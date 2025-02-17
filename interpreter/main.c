@@ -29,6 +29,6 @@ char* readFile(char* filePath){
 		cc = (char)c;
 		strncat(fileBuffer, &cc, 1);
 	}
-  fclose(filePointer);
+  	fclose(filePointer);
 	return fileBuffer;
 }
