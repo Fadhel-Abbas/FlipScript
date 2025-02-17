@@ -1,2 +1,2 @@
-# HexLang
-an esoLang written entirely in hexadecmial
+# FlipScript
+## an esoLang made for game programming
