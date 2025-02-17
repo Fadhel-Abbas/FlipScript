@@ -10,7 +10,7 @@ char* readFile(char* filePath);
 int main(int argc, char* argv[]){
 	char* fileBuffer = readFile(argv[1]);
 	char* tokenBuffer[10];
-	lexer(tokenBuffer, fileBuffer);
+	lex(tokenBuffer, fileBuffer);
     return 0;
 }
 
